@@ -1,0 +1,199 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.containerupper {
+  display: flex;
+  justify-content: center;
+}
+.r1 {
+  padding-top: 30px;
+  background-image: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-position-x: 27rem;
+  background-position-y: 9rem;
+  background-size: 4.5rem;
+}
+#header {
+  width: 60rem;
+  height: 40vh;
+}
+.r2 {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600, 400;
+}
+.r2 > p {
+  font-size: small;
+}
+.butn {
+  display: flex;
+  justify-content: center;
+}
+#btn1 {
+  color: white;
+  width: 12%;
+  height: 5.5vh;
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 5rem;
+  margin-right: 0.8rem;
+  border-style: none;
+}
+#btn2 {
+  color: white;
+  width: 12%;
+  height: 5.5vh;
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 5rem;
+  border-style: none;
+}
+.midtext {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600, 400;
+}
+.midtext > p {
+  font-size: small;
+}
+
+.screen_text {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 35rem;
+  height: 20rem;
+}
+.inside_text {
+  padding-left: 60px;
+  margin-top: 20px;
+  line-height: 27px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.text_img {
+  height: 70vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 35px;
+  background-image: url(./images/image-devices.png);
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  background-position-x: 50%;
+  background-position-y: 10rem;
+}
+.t4 {
+  margin-top: 60px;
+}
+.t4 > h1 {
+  padding-left: 32rem;
+}
+.t4 > p {
+  padding-left: 27rem;
+}
+.t4 > p2 {
+  padding-left: 34rem;
+}
+.super {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 35px;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding-left: 22rem;
+}
+.icon img {
+  width: 9%;
+  height: 5vh;
+}
+
+.icon p {
+  color: rgb(172, 168, 168);
+  font-size: small;
+}
+.sneak {
+  padding-left: 15px;
+}
+.create {
+  padding-right: 15px;
+}
+.five_icon {
+  display: flex;
+  padding-left: 22rem;
+}
+.five_icon img {
+  width: 60%;
+  height: 2rem;
+}
+.five2 {
+  padding-left: 5rem;
+}
+.five3 {
+  padding-left: 5rem;
+}
+.five4 {
+  padding-left: 5rem;
+}
+.five5 {
+  padding-left: 5rem;
+}
+.ios_mac {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 25px;
+}
+.ios_mac p {
+  color: rgb(172, 168, 168);
+  font-size: small;
+}
+.footer {
+  background-color: rgb(240, 240, 240);
+  width: 63rem;
+  height: 15vh;
+  margin-left: 13rem;
+  display: flex;
+}
+.cicon img {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 10rem;
+  margin-top: 2rem;
+}
+.ftext {
+  color: rgb(151, 151, 151);
+  font-family: "Bai Jamjuree", sans-serif;
+  padding-left: 80px;
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: small;
+  display: flex;
+}
+.ftext .pp,
+.install {
+  padding-left: 70px;
+}
+.social {
+  padding-left: 10rem;
+  margin-top: 1rem;
+}
+
+.ftext a {
+  text-decoration: none;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px;
+  border-radius: 7rem;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
